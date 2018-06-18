@@ -15,37 +15,13 @@ library(huxtable)
 ```
 
 class: center, middle
-# THE DEVELOPMENT AND APPLICATION OF NEW TOOLS IN QUANTITATIVE ECOLOGY
+# RESEARCH IN THE FISH ECOLOGY DIVISION
 ## Mark Scheuerell
 _Northwest Fisheries Science Center<br>National Oceanic and Atmospheric Administration<br>Seattle, WA_
 
 .futnote.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
 
-.citation.blue-text[\#WSN2017]
-
----
-
-# Acknowledgments - WSN
-
-.large.blue-text[
-## Jenn Caselle
-
-## Brian Gaylord
-]
-
----
-
-# Acknowledgments - colleagues
-
-.large.blue-text[
-## Elizabeth Holmes, Jim Thorson, Eric Ward (NOAA)
-
-## Eric Buhle, Kevin See (Quantitative Consultants, Inc)
-
-## Stephanie Hampton, Steve Katz (WSU)
-
-## Brice Semmens (Scripps)
-]
+.citation.blue-text[LMRCSC]
 
 ---
 
@@ -59,62 +35,78 @@ background-size: cover
 
 ---
 
-# A brief outline
+# Our division comprises 4 programs
 
-1. Background
-.small[
-* Early mathematical flute music
-* Emergence of cool stuff
-* The future of cool stuff
-* Can we get through all of this?
+.large.blue-text[
+## 1. Ecosystem Analysis 
 ]
-2. Methods
-.small[
-* Old school stats
-* New school stats
-* Software improvements
-* Hardware is not soft
+
+.pull-left-img[
+### Empirical field work
+
+### Quantitative ecology
+
+### Legal consultations  
 ]
-3. Results
-.small[
-* Some plots
-* Unrelated tangent
-* More plots
-* Really hard-to-read table
-* Horrendogram
-]
-4. Discussion
-.small[
-* Where is this headed?
-* So much inference
-* Did we get through all of this?
-* When is he done?
-]
-5. Supplement
-.small[
-* There's more?!
-* Who does this in a talk?
-]
+
+.pull-right[![](figs/b7.JPG)]
 
 ---
 
-class: frimgB, center
+# Our division comprises 4 programs
 
-# I was trained as a field ecologist
+.large.blue-text[
+## 2. Estuarine and Ocean Ecology 
+]
 
-<img src="figs/Mark_at_Rainbow_Cr.jpg", alt="", height=440, width=440>
+.pull-left-img[
+### Food web focused
+
+### Empirical field work
+
+### Quantitative ecology
+
+]
+
+.pull-right[![](figs/NastyTrawlWeather3.jpg)]
 
 ---
 
-# Many advances in methods for naturalists
+# Our division comprises 4 programs
 
-.blue-text[
-## Genetics
-
-## Remote sensing
-
-## Statistics
+.large.blue-text[
+## 3. Migrational Behavior 
 ]
+
+.pull-left-img[
+### Empirical field work
+
+### Dam passage
+
+### Salmon, shad, sturgeon & lamprey
+
+]
+
+.pull-right[![](figs/operating.jpg)]
+
+---
+
+# Our division comprises 4 programs
+
+.large.blue-text[
+## 4. Watershed
+]
+
+.pull-left-img[
+### Empirical field work
+
+### Fish-habitat relationships
+
+### Restoration & monitoring
+
+]
+
+.pull-right[![](figs/elwha_mouth.png)]
 
 ---
 
@@ -432,7 +424,7 @@ class: inverse, center, middle
 ## .blue-text[Code-your-own] (JAGS, Stan, greta)
 
 .footnoteSm.gray-text[
-<sup>\*</sup>See Holmes, Ward & Scheuerell (2014) for *lots* of worked examples
+<sup>\*</sup>See Holmes, Ward & Scheuerell (2018) for *lots* of worked examples
 ]
 
 ---
@@ -445,7 +437,7 @@ background-size: cover
 
 class: inverse, center, middle
 
-# AN EXAMPLE
+# EXAMPLES
 
 ---
 
@@ -510,56 +502,6 @@ background-size: 120%
 
 ---
 
-class: inverse, center, middle
-
-# ANOTHER EXAMPLE
-
----
-
-# Emergence of high-dimension data
-
-.blue-text[
-## Remote sensing
-## Citizen science
-## Large-scale surveys
-]
-
----
-
-# Groundfish surveys along the West Coast
-
-.blue-text[
-## Massive effort to assess stock status & set catch limits for 100+ species
-]
-
----
-
-# Data reduction techniques
-
-.blue-text[
-## Can we detect a few common patterns in the data?
-]
-
----
-
-class: frimg
-background-image: url(figs/sfa_1.png)
-background-position: 50% 30%
-background-size: 65%
-
-.citationT.gray-text[Thorson et al. (2015) *Meth* *Ecol* & *Evol* 6:627–637]
-
----
-
-class: frimg
-background-image: url(figs/sfa_2.png)
-background-position: 50% 30%
-background-size: 75%
-
-.citationT.gray-text[Thorson et al. (2015) *Meth* *Ecol* & *Evol* 6:627–637]
-
----
-
 # Other applications of hierarchical models
 
 ## .blue-text[Identifying metapopulation structure]
@@ -602,7 +544,7 @@ background-size: 75%
 
 ##  Slide deck
 
-### https://github.com/mdscheuerell/WSN2017
+### https://github.com/mdscheuerell/lmrcsc
 
 ## Image sources
 
@@ -613,5 +555,3 @@ background-size: 75%
 ]
 
 .futnote.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
-
-.citation.blue-text[\#WSN2017]
