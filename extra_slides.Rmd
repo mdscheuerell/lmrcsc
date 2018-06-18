@@ -15,9 +15,118 @@ library(huxtable)
 ```
 
 
-# Part 2: Observation model
+class: inverse, center, middle
 
-## .purple-text[Stuff we observe] = .blue-text[Stuff nature does] &#177; .red-text[Stuff we miss]
+# How do I actually do this?
+
+---
+
+# Many software options
+
+## .blue-text[Canned **R** packages] (MARSS<sup>*</sup>, dlm, vars)
+
+## .blue-text[Code-your-own] (JAGS, Stan, greta)
+
+.footnoteSm.gray-text[
+<sup>\*</sup>See Holmes, Ward & Scheuerell (2018) for *lots* of worked examples
+]
+
+---
+
+class: frimg
+background-image: url(figs/snake_oil.jpg)
+background-size: cover
+
+---
+
+class: inverse, center, middle
+
+# EXAMPLES
+
+---
+
+# Conservation of Pacific salmon
+
+.blue-text[
+## 50% of salmon populations along the US West Coast are listed under the Endangered Species Act
+]
+
+---
+
+class: frimg
+background-image: url(figs/suppl_scheme.png)
+background-position: 50% 85%
+background-size: 80%
+
+# Recovery options for Pacific salmon
+
+.blue-text[
+## One strategy is hatchery supplementation
+]
+
+---
+
+# Evaluating conservation interventions
+
+.blue-text[
+## Has 30+ years of hatchery supplementation boosted the production of wild salmon in the Snake R?
+]
+
+---
+
+class: frimg
+background-image: url(figs/suppl_esu.png)
+background-size: 90%
+
+---
+
+class: frimg
+background-image: url(figs/suppl_ts.png)
+background-position: 70% 45%
+background-size: 70%
+
+.topleft.blue-text[
+## Supplementation is ad hoc
+]
+
+---
+
+class: frimg
+background-image: url(figs/suppl_eff.png)
+background-position: 50% 35%
+background-size: 120%
+
+# Effect size is rather subtle
+
+.blue-text[
+## Probability of positive effect = 0.73
+]
+
+.citationT.gray-text[Scheuerell et al. (2015) *Ecol* & *Evol* &nbsp; 5:2115–2125]
+
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Identifying metapopulation structure]
+
+### .right[Ward et al (2010) *J Appl Ecol* &nbsp; 47:47–56]
+
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Reducing bias in estimates of density dependence] 
+
+### .right[Knape & de Valpine (2012) *Ecol Lett* &nbsp; 15:17–23]
+
+---
+
+# Other applications of hierarchical models
+
+## .blue-text[Improving precision in species extinction forecasts] 
+
+### .right[See & Holmes (2015) *Ecol Appl* &nbsp; 25:1157–1165]
 
 ---
 
