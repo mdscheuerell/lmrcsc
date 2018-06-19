@@ -15,11 +15,11 @@
 class: center, middle
 # RESEARCH IN THE FISH ECOLOGY DIVISION
 ## Mark Scheuerell
-_Northwest Fisheries Science Center&lt;br&gt;National Oceanic and Atmospheric Administration&lt;br&gt;Seattle, WA_
+_Northwest Fisheries Science Center&lt;br&gt;Seattle, WA_
 
-.futnote.blue-text[<i class="fa  fa-twitter "></i> @mark_scheuerell]
+.futnote.blue-text[LMRCSC]
 
-.citation.blue-text[LMRCSC]
+.citation.blue-text[21 June 2018]
 
 ---
 
@@ -33,16 +33,36 @@ background-size: cover
 
 ---
 
-# Our division comprises 4 programs
+# Who?
 
 .large.blue-text[
-## 1. Ecosystem Analysis 
+## We are a group of ~125 FTE's &amp; contractors
+]
+
+# Where?
+
+.large.blue-text[
+## We are based in WA (Seattle, Pasco, Mukilteo) &amp; OR (Pt Adams, Newport)
+]
+
+---
+
+class: center, middle, inverse
+
+# Our division comprises 4 programs
+
+---
+
+class: frimgB
+
+.large.blue-text[
+# 1. Ecosystem Analysis 
 ]
 
 .pull-left-img[
-### Empirical field work
+### Salmon studies
 
-### Quantitative ecology
+### Life cycle models
 
 ### Legal consultations  
 ]
@@ -51,18 +71,18 @@ background-size: cover
 
 ---
 
-# Our division comprises 4 programs
+class: frimgB
 
 .large.blue-text[
-## 2. Estuarine and Ocean Ecology 
+# 2. Estuarine and Ocean Ecology 
 ]
 
 .pull-left-img[
-### Food web focused
+### Biophysical coupling
 
-### Empirical field work
+### Food web studies
 
-### Quantitative ecology
+### Ecological forecasting
 
 ]
 
@@ -70,16 +90,16 @@ background-size: cover
 
 ---
 
-# Our division comprises 4 programs
+class: frimgB
 
 .large.blue-text[
-## 3. Migrational Behavior 
+# 3. Migrational Behavior 
 ]
 
 .pull-left-img[
-### Empirical field work
-
 ### Dam passage
+
+### Survival studies
 
 ### Salmon, shad, sturgeon &amp; lamprey
 
@@ -89,16 +109,16 @@ background-size: cover
 
 ---
 
-# Our division comprises 4 programs
+class: frimgB
 
 .large.blue-text[
-## 4. Watershed
+# 4. Watershed
 ]
 
 .pull-left-img[
-### Empirical field work
+### Salmon studies
 
-### Fish-habitat relationships
+### Fish habitat
 
 ### Restoration &amp; monitoring
 
@@ -108,9 +128,17 @@ background-size: cover
 
 ---
 
+class: frimgB, center
+
+# I was trained as a field ecologist
+
+&lt;img src="figs/Mark_at_Rainbow_Cr.jpg", alt="", height=440, width=440&gt;
+
+---
+
 class: center, middle, inverse
 
-# Lots of focus on *hierarchical models*
+# Now I develop *hierarchical models*
 
 ---
 
@@ -266,141 +294,18 @@ class: frimg
 ### This simple model can be used for 5+ unique applications!
 ]
 
-
-
 `$$\LARGE \mathbf{x}_t = \mathbf{B} \mathbf{x}_{t-1} + \mathbf{w}_t \\
   \LARGE \mathbf{y}_t = \mathbf{Z} \mathbf{x}_t + \mathbf{v}_t$$`
 
 ---
 
-class: inverse, center, middle
+class: center, middle
 
-# How do I actually do this?
-
----
-
-# Many software options
-
-## .blue-text[Canned **R** packages] (MARSS&lt;sup&gt;*&lt;/sup&gt;, dlm, vars)
-
-## .blue-text[Code-your-own] (JAGS, Stan, greta)
-
-.footnoteSm.gray-text[
-&lt;sup&gt;\*&lt;/sup&gt;See Holmes, Ward &amp; Scheuerell (2018) for *lots* of worked examples
-]
-
----
-
-class: frimg
-background-image: url(figs/snake_oil.jpg)
-background-size: cover
-
----
-
-class: inverse, center, middle
-
-# EXAMPLES
-
----
-
-# Conservation of Pacific salmon
-
-.blue-text[
-## 50% of salmon populations along the US West Coast are listed under the Endangered Species Act
-]
-
----
-
-class: frimg
-background-image: url(figs/suppl_scheme.png)
-background-position: 50% 85%
-background-size: 80%
-
-# Recovery options for Pacific salmon
-
-.blue-text[
-## One strategy is hatchery supplementation
-]
-
----
-
-# Evaluating conservation interventions
-
-.blue-text[
-## Has 30+ years of hatchery supplementation boosted the production of wild salmon in the Snake R?
-]
-
----
-
-class: frimg
-background-image: url(figs/suppl_esu.png)
-background-size: 90%
-
----
-
-class: frimg
-background-image: url(figs/suppl_ts.png)
-background-position: 70% 45%
-background-size: 70%
-
-.topleft.blue-text[
-## Supplementation is ad hoc
-]
-
----
-
-class: frimg
-background-image: url(figs/suppl_eff.png)
-background-position: 50% 35%
-background-size: 120%
-
-# Effect size is rather subtle
-
-.blue-text[
-## Probability of positive effect = 0.73
-]
-
-.citationT.gray-text[Scheuerell et al. (2015) *Ecol* &amp; *Evol* &amp;nbsp; 5:2115–2125]
-
----
-
-# Other applications of hierarchical models
-
-## .blue-text[Identifying metapopulation structure]
-
-### .right[Ward et al (2010) *J Appl Ecol* &amp;nbsp; 47:47–56]
-
----
-
-# Other applications of hierarchical models
-
-## .blue-text[Reducing bias in estimates of density dependence] 
-
-### .right[Knape &amp; de Valpine (2012) *Ecol Lett* &amp;nbsp; 15:17–23]
-
----
-
-# Other applications of hierarchical models
-
-## .blue-text[Improving precision in species extinction forecasts] 
-
-### .right[See &amp; Holmes (2015) *Ecol Appl* &amp;nbsp; 25:1157–1165]
-
----
-
-##  Slide deck
-
-### https://github.com/mdscheuerell/lmrcsc
-
-## Image sources
-
-.left.blue-text[
-### Drinking fountain: *Massachusetts Inst Tech*
-### Janet Leigh: *Paramount Studios*
-### Snake oil: *The Register*
-]
+# Thank you!
 
 .futnote.blue-text[<i class="fa  fa-twitter "></i> @mark_scheuerell]
+
+.citation.blue-text[https://github.com/mdscheuerell]
     </textarea>
 <script src="libs/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({

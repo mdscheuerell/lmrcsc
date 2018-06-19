@@ -17,11 +17,11 @@ library(huxtable)
 class: center, middle
 # RESEARCH IN THE FISH ECOLOGY DIVISION
 ## Mark Scheuerell
-_Northwest Fisheries Science Center<br>National Oceanic and Atmospheric Administration<br>Seattle, WA_
+_Northwest Fisheries Science Center<br>Seattle, WA_
 
-.futnote.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
+.futnote.blue-text[LMRCSC]
 
-.citation.blue-text[LMRCSC]
+.citation.blue-text[21 June 2018]
 
 ---
 
@@ -35,16 +35,36 @@ background-size: cover
 
 ---
 
-# Our division comprises 4 programs
+# Who?
 
 .large.blue-text[
-## 1. Ecosystem Analysis 
+## We are a group of ~125 FTE's & contractors
+]
+
+# Where?
+
+.large.blue-text[
+## We are based in WA (Seattle, Pasco, Mukilteo) & OR (Pt Adams, Newport)
+]
+
+---
+
+class: center, middle, inverse
+
+# Our division comprises 4 programs
+
+---
+
+class: frimgB
+
+.large.blue-text[
+# 1. Ecosystem Analysis 
 ]
 
 .pull-left-img[
-### Empirical field work
+### Salmon studies
 
-### Quantitative ecology
+### Life cycle models
 
 ### Legal consultations  
 ]
@@ -53,18 +73,18 @@ background-size: cover
 
 ---
 
-# Our division comprises 4 programs
+class: frimgB
 
 .large.blue-text[
-## 2. Estuarine and Ocean Ecology 
+# 2. Estuarine and Ocean Ecology 
 ]
 
 .pull-left-img[
-### Food web focused
+### Biophysical coupling
 
-### Empirical field work
+### Food web studies
 
-### Quantitative ecology
+### Ecological forecasting
 
 ]
 
@@ -72,16 +92,16 @@ background-size: cover
 
 ---
 
-# Our division comprises 4 programs
+class: frimgB
 
 .large.blue-text[
-## 3. Migrational Behavior 
+# 3. Migrational Behavior 
 ]
 
 .pull-left-img[
-### Empirical field work
-
 ### Dam passage
+
+### Survival studies
 
 ### Salmon, shad, sturgeon & lamprey
 
@@ -91,16 +111,16 @@ background-size: cover
 
 ---
 
-# Our division comprises 4 programs
+class: frimgB
 
 .large.blue-text[
-## 4. Watershed
+# 4. Watershed
 ]
 
 .pull-left-img[
-### Empirical field work
+### Salmon studies
 
-### Fish-habitat relationships
+### Fish habitat
 
 ### Restoration & monitoring
 
@@ -110,9 +130,17 @@ background-size: cover
 
 ---
 
+class: frimgB, center
+
+# I was trained as a field ecologist
+
+<img src="figs/Mark_at_Rainbow_Cr.jpg", alt="", height=440, width=440>
+
+---
+
 class: center, middle, inverse
 
-# Lots of focus on *hierarchical models*
+# Now I develop *hierarchical models*
 
 ---
 
@@ -368,16 +396,10 @@ $$\LARGE \mathbf{x}_t = \mathbf{B} \mathbf{x}_{t-1} + \mathbf{w}_t \\
 
 ---
 
-##  Slide deck
+class: center, middle
 
-### https://github.com/mdscheuerell/lmrcsc
-
-## Image sources
-
-.left.blue-text[
-### Drinking fountain: *Massachusetts Inst Tech*
-### Janet Leigh: *Paramount Studios*
-### Snake oil: *The Register*
-]
+# Thank you!
 
 .futnote.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
+
+.citation.blue-text[https://github.com/mdscheuerell]
