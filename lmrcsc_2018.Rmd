@@ -25,26 +25,20 @@ _Northwest Fisheries Science Center<br>Seattle, WA_
 
 ---
 
-class: frimg, center 
-background-image: url(figs/mit_fire_hose.jpg)
-background-size: cover
-
-.white-text[
-# I hope you're thirsty!
-]
-
----
-
 # Who?
 
 .large.blue-text[
-## We are a group of ~125 FTE's & contractors
+## A group of ~125 FTE's & contractors
 ]
 
 # Where?
 
 .large.blue-text[
-## We are based in WA (Seattle, Pasco, Mukilteo) & OR (Pt Adams, Newport)
+## Washington (Seattle, Pasco, Mukilteo)
+]
+
+.large.blue-text[
+## Oregon (Pt Adams, Newport)
 ]
 
 ---
@@ -90,6 +84,8 @@ class: frimgB
 
 .pull-right[![](figs/NastyTrawlWeather3.jpg)]
 
+.citation.blue-text[Credit: NWFSC]
+
 ---
 
 class: frimgB
@@ -108,6 +104,8 @@ class: frimgB
 ]
 
 .pull-right[![](figs/operating.jpg)]
+
+.citation.blue-text[Credit: NWFSC]
 
 ---
 
@@ -128,6 +126,8 @@ class: frimgB
 
 .pull-right[![](figs/elwha_mouth.png)]
 
+.citation.blue-text[Credit: G Pess]
+
 ---
 
 class: frimgB, center
@@ -147,6 +147,8 @@ class: center, middle, inverse
 class: frimg, center
 background-image: url(figs/horrified.jpg)
 background-size: cover
+
+.citation.gray-text[Credit: Paramount Studios]
 
 ---
 
@@ -391,15 +393,17 @@ class: frimg
 ### This simple model can be used for 5+ unique applications!
 ]
 
-$$\LARGE \mathbf{x}_t = \mathbf{B} \mathbf{x}_{t-1} + \mathbf{w}_t \\
-  \LARGE \mathbf{y}_t = \mathbf{Z} \mathbf{x}_t + \mathbf{v}_t$$
+$$\Large \mathbf{x}_t = \mathbf{B} \mathbf{x}_{t-1} + \mathbf{w}_t \\
+  \Large \mathbf{y}_t = \mathbf{Z} \mathbf{x}_t + \mathbf{v}_t$$
 
 ---
 
-class: center, middle
+# More info
 
-# Thank you!
+## https://github.com/mdscheuerell
 
-.futnote.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
+## https://github.com/nwfsc-timeseries
 
-.citation.blue-text[https://github.com/mdscheuerell]
+.citation.blue-text[`r icon::fa("twitter")` @mark_scheuerell]
+
+.futnote.blue-text[mark.scheuerell@noaa.gov]
