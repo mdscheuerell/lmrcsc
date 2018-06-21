@@ -1,1 +1,19 @@
 https://github.com/astefanutti/decktape
+
+decktape reveal https://faculty.washington.edu/scheuerl/lmrcsc_2018.html lmrcsc_2018.pdf
+
+decktape reveal https://raw.githubusercontent.com/mdscheuerell/lmrcsc/master/lmrcsc_2018.html lmrcsc_2018.pdf
+
+decktape --slides 1-29 automatic https://raw.githubusercontent.com/mdscheuerell/lmrcsc/master/lmrcsc_2018.html lmrcsc_2018.pdf
+
+decktape remark https://faculty.washington.edu/scheuerl/lmrcsc/lmrcsc_2018.html lmrcsc_2018.pdf
+
+
+decktape --slides 1-29 automatic https://raw.githubusercontent.com/mdscheuerell/lmrcsc/master/lmrcsc_2018.html lmrcsc_2018.pdf
+
+decktape automatic https://faculty.washington.edu/scheuerl/index.html testit.pdf
+
+decktape generic https://faculty.washington.edu/scheuerl/index.html testit.pdf
+
+
+https://faculty.washington.edu/scheuerl/lmrcsc_2018.html
