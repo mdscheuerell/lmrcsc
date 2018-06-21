@@ -84,7 +84,7 @@ class: frimgB
 
 .pull-right[![](figs/NastyTrawlWeather3.jpg)]
 
-.citation.blue-text[Credit: NWFSC]
+.citation.gray-text[Photo: NWFSC]
 
 ---
 
@@ -105,7 +105,7 @@ class: frimgB
 
 .pull-right[![](figs/operating.jpg)]
 
-.citation.blue-text[Credit: NWFSC]
+.citation.gray-text[Photo: NWFSC]
 
 ---
 
@@ -126,7 +126,7 @@ class: frimgB
 
 .pull-right[![](figs/elwha_mouth.png)]
 
-.citation.blue-text[Credit: G Pess]
+.citation.gray-text[Photo: G Pess]
 
 ---
 
@@ -393,8 +393,9 @@ class: frimg
 ### This simple model can be used for 5+ unique applications!
 ]
 
-$$\Large \mathbf{x}_t = \mathbf{B} \mathbf{x}_{t-1} + \mathbf{w}_t \\
-  \Large \mathbf{y}_t = \mathbf{Z} \mathbf{x}_t + \mathbf{v}_t$$
+.center.huge[
+<b>x</b><sub><i>t</i></sub> = <b>Bx</b><sub><i>t</i>-1</sub> + <b>w</b><sub><i>t</i></sub> </br> <b>y</b><sub><i>t</i></sub> = <b>Zx</b><sub><i>t</i></sub> + <b>v</b><sub><i>t</i></sub>
+]
 
 ---
 
